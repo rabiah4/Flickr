@@ -57,7 +57,7 @@ public class flickrR {
         String maximum_latitude = Double.toString(latMax);
 
         SearchParameters searchParameters = new SearchParameters();
-        searchParameters.setAccuracy(5);
+        searchParameters.setAccuracy(16);
         searchParameters.setBBox(minimum_longitude, minimum_latitude, maximum_longitude, maximum_latitude);
 
         PhotoList<Photo> list = flickr.getPhotosInterface().search(searchParameters, 0, 0);
