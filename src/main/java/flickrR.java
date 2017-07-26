@@ -88,10 +88,14 @@ public class flickrR {
                 double photo_long = photo.getGeoData().getLongitude();
                 int photo_acc = photo.getGeoData().getAccuracy();
 
+                /*The flickr.places.findByLatLon method is not meant to be a (reverse) geocoder in the traditional sense. 
+                It is designed to allow users to find photos for "places" and will round up to the nearest place type to 
+                which corresponding place IDs apply.*/
+                
                 //it will return one place only
                 PlacesList<Place> place = flickr.getPlacesInterface().findByLatLon(photo_lat, photo_long, photo_acc);
                 for (Place p : place) {
-                    placeID = p.getPlaceId();
+                    placeID = p.getPlaceId(); 
                     placeurl = p.getPlaceUrl();
                 }
 
