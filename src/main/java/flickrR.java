@@ -162,13 +162,6 @@ public class flickrR {
             }
         }
 
-        //        for (Place place : placelist) {
-        //            System.out.println("place name : " + place.getName());
-        //            System.out.println("getPlace Id : " + place.getPlaceId());
-        //            System.out.println("getWoeId : " + place.getWoeId());
-        //            System.out.println("getPlaceUrl : " + place.getPlaceUrl());
-        //            //System.out.println("toString : " + place.toString()); //returns null
-        //
     }
 
     public static void BBox(double lat, double lon) {
