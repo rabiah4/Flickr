@@ -107,7 +107,7 @@ public class PlacesInterface {
 
     private static final String METHOD_GET_CHILDREN_WITH_PHOTOS_PUBLIC = "flickr.places.getChildrenWithPhotosPublic";
 
-    private static final String METHOD_GET_INFO = "flickr.places.getInfo";
+    private static final String METHOD_GET_INFO = "flickr.places.fff";
 
     private static final String METHOD_GET_INFO_BY_URL = "flickr.places.getInfoByUrl";
 
