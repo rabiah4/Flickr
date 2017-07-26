@@ -17,7 +17,7 @@ public class DBtest {
     public static void main(String[] args) {
      try
     {
-         Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/FlickrDB","root","1214848");
+         Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/FlickrDB","root","");
 
 
 System.out.println("connected with "+con.toString());
