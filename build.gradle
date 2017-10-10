@@ -58,6 +58,3 @@ artifacts {
     archives sourcesJar
 }
 
-plugins {
-    id "org.sonarqube" version "2.5"
-} 
